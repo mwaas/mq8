@@ -1,3 +1,6 @@
 source 'https://supermarket.chef.io'
 
 metadata
+
+cookbook 'ibm_mq', github: "ibm-messaging/mq-chef", tag: "v0.1.1"
+

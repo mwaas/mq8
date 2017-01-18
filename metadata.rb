@@ -1,6 +1,6 @@
 name 'mq8'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Nikhil Kumar'
+maintainer_email 'nikhil.kumar@gm.com'
 license 'all_rights'
 description 'Installs/Configures mq8'
 long_description 'Installs/Configures mq8'
@@ -17,3 +17,6 @@ version '0.1.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/mq8' if respond_to?(:source_url)
+
+depends 'ibm_mq'
+

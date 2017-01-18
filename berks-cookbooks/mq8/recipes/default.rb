@@ -5,8 +5,7 @@
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
 ibm_mq_installation 'Installation1' do
-#  source 'http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/messaging/mqadv/mqadv_dev80_linux_x86-64.tar.gz'
-  source 'file:///data/mwaas/ibm_images/mq/WS_MQ_V8.0.0.4_LINUX_ON_X86_64_IM.tar.gz'
+  source 'http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/messaging/mqadv/mqadv_dev80_linux_x86-64.tar.gz'
   accept_license true
   primary true
 end
